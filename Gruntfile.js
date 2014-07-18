@@ -45,7 +45,6 @@ module.exports = function(grunt) {
       app: {
         src: [
           'bower_components/jquery/dist/jquery.js',
-          'bower_components/foundation/js/foundation.min.js',
           '<%= config.src %>/js/app.js'
         ],
         dest: '<%= config.dist %>/assets/js/app.js'
