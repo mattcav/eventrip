@@ -11,11 +11,15 @@
   </head>
   <body>
 
-
-    <main id="main" class="main" role="main">
-
-      {{> body }}
-
+    <main id="main" class="main st-container" role="main">
+      {{> site-nav }}
+      <div class="st-pusher">
+      <div class="st-content" role="document">
+      <div class="st-content-inner" >
+        {{> body }}
+      </div>
+      </div>
+      </div>
     </main>
 
   <script src="{{assets}}/js/app.js"></script>

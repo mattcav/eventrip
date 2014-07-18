@@ -125,6 +125,9 @@ module.exports = function(grunt) {
     },
 
     assemble: {
+      options: {
+        collections: ['navs', 'posts' ]
+      },
       pages: {
         options: {
           flatten: true,

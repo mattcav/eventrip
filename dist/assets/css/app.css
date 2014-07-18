@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+
+
 meta.foundation-version {
   font-family: "/5.3.1/"; }
 
@@ -1490,3 +1495,107 @@ th.hide-for-touch {
     display: table-cell !important; }
   th.show-for-print {
     display: table-cell !important; } }
+
+html, body, .st-container, .st-pusher, .st-content {
+  height: 100%; }
+
+.st-toggle {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 9999;
+  padding: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  cursor: pointer;
+  border: medium none;
+  background: black;
+  color: white; }
+
+.st-container {
+  background: black; }
+
+.st-content {
+  overflow-y: auto;
+  background: white; }
+
+.st-content, .st-content-inner {
+  position: relative; }
+
+.st-container {
+  position: relative;
+  overflow: hidden; }
+
+.st-pusher {
+  position: relative;
+  left: 0;
+  z-index: 99;
+  height: 100%;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s; }
+
+.st-pusher::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  background: rgba(0, 0, 0, 0.2);
+  content: '';
+  opacity: 0;
+  transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; }
+
+.st-menu-open .st-pusher::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.5s; }
+
+.st-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  visibility: hidden;
+  width: 270px;
+  height: 100%;
+  background: white;
+  transition: all 0.5s;
+  overflow: auto; }
+
+.st-menu::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  content: '';
+  opacity: 1;
+  transition: opacity 0.5s; }
+
+.st-menu-open .st-menu::after {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s; }
+
+/* Individual effects */
+/* Effect 5: Reverse slide out */
+.st-menu-open .st-pusher {
+  -webkit-transform: translate3d(270px, 0, 0);
+  transform: translate3d(270px, 0, 0); }
+
+.st-menu {
+  z-index: 1; }
+
+.st-menu-open .st-menu {
+  visibility: visible;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s; }
+
+.st-menu::after {
+  display: none; }
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+@media only screen and (min-width:64.063em) { }
