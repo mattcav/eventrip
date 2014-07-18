@@ -126,7 +126,12 @@ module.exports = function(grunt) {
 
     assemble: {
       options: {
-        collections: ['navs', 'posts' ]
+         collections: [
+      {
+        title: 'pages',
+        sortby: 'order' 
+      }
+    ]
       },
       pages: {
         options: {

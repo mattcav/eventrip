@@ -6,6 +6,12 @@
   font-weight: 700;
   font-family: 'Playfair Display', serif; }
 
+.lato {
+  font-family: 'Playfair Display', serif; }
+
+.lora {
+  font-family: 'Playfair Display', serif; }
+
 
 
 meta.foundation-version {
@@ -1061,7 +1067,7 @@ small {
 code {
   font-family: Consolas, 'Liberation Mono', Courier, monospace;
   font-weight: bold;
-  color: #bd240d; }
+  color: #9d2523; }
 
 /* Lists */
 ul, ol, dl {
@@ -1501,6 +1507,12 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 
+html, body {
+  font-size: 90%; }
+  @media only screen and (min-width:30.063em) {
+    html, body {
+      font-size: 100%; } }
+
 html, body, .st-container, .st-pusher, .st-content {
   height: 100%; }
 
@@ -1605,6 +1617,20 @@ html, body, .st-container, .st-pusher, .st-content {
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 @media only screen and (min-width:50.063em) { }
 
+.content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  max-width: 27rem;
+  margin: 2rem auto; }
+  @media only screen and (min-width:50.063em) {
+    .content {
+      max-width: 40rem; } }
+
 .cover {
   position: relative; }
   @media only screen and (min-width:50.063em) {
@@ -1619,13 +1645,16 @@ html, body, .st-container, .st-pusher, .st-content {
     bottom: 0;
     left: 0; } }
 
-.entry__header {
+.coverHeader {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
-  float: left; }
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
   @media only screen and (min-width:50.063em) {
-    .entry__header {
+    .coverHeader {
       position: absolute;
       top: 0;
       right: 0;
@@ -1633,26 +1662,26 @@ html, body, .st-container, .st-pusher, .st-content {
       left: 0;
       z-index: 10;
       background-image: linear-gradient(160deg, rgba(255, 255, 255, 0) 60%, #000000 100%); } }
-  .entry__header p {
+  .coverHeader p {
     margin-bottom: 0; }
     @media only screen and (min-width:50.063em) {
-      .entry__header p {
+      .coverHeader p {
         color: white; } }
     @media only screen and (min-width:80.063em) {
-      .entry__header p {
+      .coverHeader p {
         font-size: 1.4375rem; } }
 
-.entry__header__inner {
+.coverHeader__inner {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 1rem 0 2rem; }
   @media only screen and (min-width:50.063em) {
-    .entry__header__inner {
+    .coverHeader__inner {
       position: absolute;
       right: 2rem;
       bottom: 0;
       text-align: right; } }
   @media only screen and (min-width:80.063em) {
-    .entry__header__inner {
+    .coverHeader__inner {
       right: 4rem; } }
 
 @media only screen and (min-width:50.063em) {
@@ -1661,3 +1690,18 @@ html, body, .st-container, .st-pusher, .st-content {
 @media only screen and (min-width:80.063em) {
   .entry__title {
     font-size: 4.5rem; } }
+
+.pagenav {
+  text-align: center; }
+
+.pagenav__list {
+  margin: 0;
+  padding: 0 1rem; }
+
+.pagenav__item {
+  display: inline; }
+
+.pagenav__link {
+  font-style: italic;
+  padding: 0 0.5rem;
+  font-size: 1.125rem; }

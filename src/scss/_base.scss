@@ -1,0 +1,6 @@
+html, body {
+font-size: 90%;
+    @media #{$medium-up} {
+        font-size:100%;
+    }
+}

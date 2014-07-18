@@ -1,8 +1,8 @@
 <nav class="pagenav">
     <ul class="pagenav__list">
-        {{#each pages }} 
-          {{#is data.section  "feria" }} 
-            <li {{#is ../../page.dest this.dest}} class="pagenav__item pagenav__item--active"{{/is}}>  <a  href ="{{relative ../../page.dest this.dest}}" > {{data.title }} </a >  </li > 
+        {{#each pages sortby="data.title"}} 
+          {{#is data.entry  "feria" }} 
+            <li class="pagenav__item {{#is ../../page.dest this.dest}}pagenav__item--active{{/is}}">  <a class="pagenav__link" href ="{{relative ../../page.dest this.dest}}" > {{data.title }} </a >  </li > 
           {{/is }} 
         {{/each }}  
     </ul>
