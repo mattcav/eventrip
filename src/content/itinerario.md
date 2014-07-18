@@ -1,4 +1,4 @@
-##Itinerario 1
+##El Alumbrao
 
 ### 1 giorno
 Si comincia già la sera del lunedì precedente, detta notte del *"Lunes del alumbrao"*: alla mezzanotte si accendono ufficialmente, sin dal 1877, milioni di farolillos, luci e lanterne di carta colorata che adornano un piccolo villaggio, allestito nella zona Barrio de los Remedios, un terreno "recintato" di fronte al parco Maria Luisa, appena fuori dal centro, ricostruito con bancarelle e strade intitolate ai toreri che hanno fatto la storia della città. 
