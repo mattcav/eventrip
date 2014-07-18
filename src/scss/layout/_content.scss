@@ -1,12 +1,37 @@
 .content {
+    clear:both;
     @include grid-column(
             $columns:12,
             $center:true
         );
-    max-width:$cage;
     margin:2rem auto;
 
-    @media #{$large-up} {
-        max-width:40rem;
-    } 
+
+    @include headings() {
+        @extend .content-col;
+        @media #{$large-up} {
+            @extend .content-col--large;
+        }
+    }
+
+    p {
+        @extend .content-col;
+        @media #{$large-up} {
+            font-size:rem-calc(18);
+            @extend .content-col--large;
+        }
+    }
+
+    img {
+        margin-bottom:1.25rem;
+    }
+}
+
+.content-col {
+    max-width:$cage;
+    margin:0 auto 1.25rem; 
+}
+
+.content-col--large {
+    max-width: 38rem;
 }

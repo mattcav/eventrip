@@ -1,9 +1,9 @@
 .cover {
     position:relative;
+    overflow: hidden;
 
     @media #{$large-up} {
         height:500px;
-        overflow: hidden;
     }
 }
 
@@ -26,6 +26,11 @@
     }
 
     p {
+        font-family:'lato', sans-serif;
+        text-transform:uppercase;
+        font-weight:300;
+        letter-spacing:1px;
+
         margin-bottom:0;
         @media #{$large-up} {
             color:$white;

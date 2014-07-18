@@ -38,12 +38,12 @@
 
 // Global
 
-$cage: 27rem;
+$cage: 37rem;
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$body-font-family: 'Playfair Display', serif;
-// $body-font-weight: normal;
+$body-font-family: 'Lato', sans-serif;
+$body-font-weight: 300;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -119,11 +119,11 @@ $xxlarge-range: (110.063em, 99999999em);
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
-// $header-font-weight: normal;
+$header-font-family: 'Playfair Display', serif;
+$header-font-weight: 700;
 // $header-font-style: normal;
 // $header-font-color: #222;
-// $header-line-height: 1.4;
+$header-line-height: 1.2;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
@@ -149,9 +149,9 @@ $xxlarge-range: (110.063em, 99999999em);
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: normal;
+$paragraph-font-weight: 300;
 // $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-line-height: 1.4;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;

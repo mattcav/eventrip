@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,400italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
 
-// playfair
+// playfair 400, 400ita, 700, 700ita
 
 .playfair-title {
     font-style:italic;
@@ -10,12 +10,19 @@
     font-family: 'Playfair Display', serif;
 }
 
-// lato 
+// lato 300
+$lato: 'Lato', sans-serif;
 .lato {
 
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
+}
+.lato-title {
+    font-family:$lato;
+    font-weight:300;
+    text-transform:uppercase;
 }
 // lora
+$lora: 'lora', serif;
 .lora {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
 }

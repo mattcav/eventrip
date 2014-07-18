@@ -7,10 +7,15 @@
   font-family: 'Playfair Display', serif; }
 
 .lato {
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Lato', sans-serif; }
+
+.lato-title, .pagenav__link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase; }
 
 .lora {
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Lora', serif; }
 
 
 
@@ -54,8 +59,8 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -991,9 +996,9 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
@@ -1007,13 +1012,13 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  line-height: 1.4; }
+  line-height: 1.2; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #6f6f6f;
@@ -1072,7 +1077,7 @@ code {
 /* Lists */
 ul, ol, dl {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
@@ -1144,7 +1149,7 @@ blockquote {
       color: #555555; }
 
 blockquote, blockquote p {
-  line-height: 1.6;
+  line-height: 1.4;
   color: #6f6f6f; }
 
 /* Microformats */
@@ -1171,7 +1176,7 @@ blockquote, blockquote p {
 
 @media only screen and (min-width:30.063em) {
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4; }
+    line-height: 1.2; }
   h1 {
     font-size: 2.75rem; }
   h2 {
@@ -1618,6 +1623,7 @@ html, body, .st-container, .st-pusher, .st-content {
 @media only screen and (min-width:50.063em) { }
 
 .content {
+  clear: both;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
@@ -1625,18 +1631,32 @@ html, body, .st-container, .st-pusher, .st-content {
   margin-left: auto;
   margin-right: auto;
   float: none;
-  max-width: 27rem;
   margin: 2rem auto; }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
   @media only screen and (min-width:50.063em) {
-    .content {
-      max-width: 40rem; } }
+    .content p {
+      font-size: 1.125rem; } }
+  .content img {
+    margin-bottom: 1.25rem; }
+
+.content-col, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
+  max-width: 37rem;
+  margin: 0 auto 1.25rem; }
+
+.content-col--large, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
+  max-width: 38rem; }
 
 .cover {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   @media only screen and (min-width:50.063em) {
     .cover {
-      height: 500px;
-      overflow: hidden; } }
+      height: 500px; } }
 
 @media only screen and (min-width:50.063em) {
   .cover__img {
@@ -1663,6 +1683,10 @@ html, body, .st-container, .st-pusher, .st-content {
       z-index: 10;
       background-image: linear-gradient(160deg, rgba(255, 255, 255, 0) 60%, #000000 100%); } }
   .coverHeader p {
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
     margin-bottom: 0; }
     @media only screen and (min-width:50.063em) {
       .coverHeader p {
@@ -1692,16 +1716,28 @@ html, body, .st-container, .st-pusher, .st-content {
     font-size: 4.5rem; } }
 
 .pagenav {
-  text-align: center; }
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  text-align: center;
+  margin-bottom: 2rem; }
+  @media only screen and (min-width:50.063em) {
+    .pagenav {
+      margin-top: 1rem; } }
 
 .pagenav__list {
-  margin: 0;
-  padding: 0 1rem; }
+  margin: 0; }
 
 .pagenav__item {
   display: inline; }
 
 .pagenav__link {
-  font-style: italic;
   padding: 0 0.5rem;
-  font-size: 1.125rem; }
+  font-size: 0.875rem; }
+  @media only screen and (min-width:30.063em) {
+    .pagenav__link {
+      font-size: 1.125rem; } }
