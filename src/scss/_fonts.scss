@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,400italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
 // playfair 400, 400ita, 700, 700ita
-
 .playfair-title {
     font-style:italic;
     font-weight:700;
@@ -13,7 +13,6 @@
 // lato 300
 $lato: 'Lato', sans-serif;
 .lato {
-
     font-family: 'Lato', sans-serif;
 }
 .lato-title {
@@ -21,8 +20,12 @@ $lato: 'Lato', sans-serif;
     font-weight:300;
     text-transform:uppercase;
 }
+
 // lora
 $lora: 'lora', serif;
 .lora {
     font-family: 'Lora', serif;
 }
+
+// oswald
+$oswald: 'Oswald', sans-serif;

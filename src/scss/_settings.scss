@@ -119,8 +119,8 @@ $xxlarge-range: (110.063em, 99999999em);
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-$header-font-family: 'Playfair Display', serif;
-$header-font-weight: 700;
+$header-font-family: $oswald;
+$header-font-weight: 300;
 // $header-font-style: normal;
 // $header-font-color: #222;
 $header-line-height: 1.2;

@@ -55,7 +55,6 @@
 }
 
 .entry__title {
-    @extend .playfair-title;
     @media #{$large-up} {
             color:$white;
             font-size:rem-calc(56);
