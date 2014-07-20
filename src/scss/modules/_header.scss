@@ -1,5 +1,9 @@
 
 .articleHeader {
+    @include grid-column(
+        $columns:12,
+        $collapse:true
+    );
 
     p {
         font-family:$lato;
@@ -11,5 +15,7 @@
 }
 
 .articleHeader__inner {
+    @extend .article__inner;
+    padding:0 2rem;
     margin:1rem 0 2rem;
 }

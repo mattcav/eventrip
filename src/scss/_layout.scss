@@ -4,11 +4,11 @@
     background:$white;
     position:relative;
     max-width:34rem;
-    margin:0 auto;
+    margin:2rem auto;
 
     @media #{$large-up} {
         max-width:78rem;
-        margin:0;
+        margin:2rem 0;
         padding:2rem;
     }
 

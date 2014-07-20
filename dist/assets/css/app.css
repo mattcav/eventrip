@@ -56,7 +56,7 @@ html, body {
 
 body {
   background: white;
-  color: #222222;
+  color: #3e4646;
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -1127,7 +1127,7 @@ dl dd {
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #3e4646;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -1518,17 +1518,17 @@ html, body {
     html, body {
       font-size: 100%; } }
 
-.article__inner {
+.article__inner, .articleHeader__inner {
   overflow: hidden;
   z-index: 10;
   background: white;
   position: relative;
   max-width: 34rem;
-  margin: 0 auto; }
+  margin: 2rem auto; }
   @media only screen and (min-width:50.063em) {
     .article__inner {
       max-width: 78rem;
-      margin: 0;
+      margin: 2rem 0;
       padding: 2rem; } }
 
 .article__main, .article__sidebar {
@@ -1676,7 +1676,11 @@ html, body, .st-container, .st-pusher, .st-content {
 
 .cover {
   position: relative;
-  z-index: 5; }
+  z-index: 5;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left; }
   @media only screen and (min-width:50.063em) {
     .cover {
       height: 500px; } }
@@ -1688,14 +1692,20 @@ html, body, .st-container, .st-pusher, .st-content {
     right: 0;
     left: 0; } }
 
-.articleHeader p {
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin-bottom: 0; }
+.articleHeader {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left; }
+  .articleHeader p {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
 
 .articleHeader__inner {
+  padding: 0 2rem;
   margin: 1rem 0 2rem; }
 
 .pagenav {
