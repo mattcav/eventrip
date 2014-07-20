@@ -1033,7 +1033,7 @@ p {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
   text-rendering: optimizeLegibility; }
   p.lead {
     font-size: 1.21875rem;
@@ -1112,7 +1112,7 @@ code {
 ul, ol, dl {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
   list-style-position: outside;
   font-family: inherit; }
 
@@ -1170,7 +1170,7 @@ abbr {
 
 /* Blockquotes */
 blockquote {
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.5rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #dddddd; }
   blockquote cite {
@@ -1613,7 +1613,13 @@ html, body {
     float: left;
     margin-left: 8.33333% !important; } }
 .article__sidebar p {
-  font-size: 0.92594rem; }
+  font-size: 0.92594rem;
+  line-height: 1.35; }
+
+.content__inner p + p {
+  text-indent: 1rem; }
+.content__inner img {
+  margin: 1rem 0; }
 
 html, body, .st-container, .st-pusher, .st-content {
   height: 100%; }
@@ -1798,4 +1804,5 @@ html, body, .st-container, .st-pusher, .st-content {
   font-size: 1.5rem;
   font-style: italic;
   text-transform: lowercase;
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem; }
