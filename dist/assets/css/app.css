@@ -35,8 +35,8 @@ meta.foundation-mq-large {
   width: 50.063em; }
 
 meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:80.063em)/";
-  width: 80.063em; }
+  font-family: "/only screen and (min-width:76.063em)/";
+  width: 76.063em; }
 
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:110.063em)/";
@@ -952,7 +952,7 @@ table {
   .medium-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:50.063em) and (max-width:80em) {
+@media only screen and (min-width:50.063em) and (max-width:76em) {
   .large-only-text-left {
     text-align: left !important; }
   .large-only-text-right {
@@ -972,7 +972,7 @@ table {
   .large-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:80.063em) and (max-width:110em) {
+@media only screen and (min-width:76.063em) and (max-width:110em) {
   .xlarge-only-text-left {
     text-align: left !important; }
   .xlarge-only-text-right {
@@ -982,7 +982,7 @@ table {
   .xlarge-only-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:80.063em) {
+@media only screen and (min-width:76.063em) {
   .xlarge-text-left {
     text-align: left !important; }
   .xlarge-text-right {
@@ -1032,7 +1032,7 @@ p {
   font-family: inherit;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
@@ -1111,7 +1111,7 @@ code {
 /* Lists */
 ul, ol, dl {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
@@ -1183,7 +1183,7 @@ blockquote {
       color: #555555; }
 
 blockquote, blockquote p {
-  line-height: 1.4;
+  line-height: 1.6;
   color: #6f6f6f; }
 
 /* Microformats */
@@ -1363,7 +1363,7 @@ blockquote, blockquote p {
     display: table-cell !important; } }
 
 /* #{$current-visibility-breakpoint} displays */
-@media only screen and (min-width:80.063em) {
+@media only screen and (min-width:76.063em) {
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important; }
   .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .show-for-large-only, .hide-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .show-for-xxlarge-only, .show-for-xxlarge-up {
@@ -1552,38 +1552,50 @@ html, body {
     html, body {
       font-size: 100%; } }
 
-.article__inner, .articleHeader__inner {
+.article__inner, .articleHeader {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
   overflow: hidden;
   z-index: 10;
   background: white;
   position: relative;
-  max-width: 34rem;
-  margin: 2rem auto; }
+  max-width: 36rem;
+  margin: 0 auto; }
   @media only screen and (min-width:50.063em) {
     .article__inner {
-      max-width: 78rem;
-      margin: 2rem 0;
-      padding: 2rem; } }
+      float: left;
+      max-width: 62rem;
+      padding: 0 2rem; } }
+  @media only screen and (min-width:76.063em) {
+    .article__inner {
+      max-width: 75rem; } }
 
 .article__main, .article__sidebar {
+  margin-top: 2rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
   float: left; }
 
 .article__main {
-  max-width: 42rem; }
+  max-width: 36rem; }
   @media only screen and (min-width:50.063em) {
     .article__main {
       padding-left: 0.9375rem;
       padding-right: 0.9375rem;
       width: 66.66667%;
       float: left; } }
-  @media only screen and (min-width:80.063em) {
+  @media only screen and (min-width:76.063em) {
     .article__main {
+      max-width: 100%;
       padding-left: 0.9375rem;
       padding-right: 0.9375rem;
-      width: 58.33333%;
+      width: 50%;
       float: left;
       margin-left: 8.33333% !important; } }
 
@@ -1593,16 +1605,15 @@ html, body {
     padding-right: 0.9375rem;
     width: 33.33333%;
     float: right; } }
-@media only screen and (min-width:80.063em) {
+@media only screen and (min-width:76.063em) {
   .article__sidebar {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 25%;
-    float: right; } }
-
-@media only screen and (min-width:50.063em) {
-  .content p {
-    font-size: 1.125rem; } }
+    float: left;
+    margin-left: 8.33333% !important; } }
+.article__sidebar p {
+  font-size: 0.92594rem; }
 
 html, body, .st-container, .st-pusher, .st-content {
   height: 100%; }
@@ -1711,8 +1722,8 @@ html, body, .st-container, .st-pusher, .st-content {
 .cover {
   position: relative;
   z-index: 5;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0;
+  padding-right: 0;
   width: 100%;
   float: left; }
   @media only screen and (min-width:50.063em) {
@@ -1727,10 +1738,15 @@ html, body, .st-container, .st-pusher, .st-content {
     left: 0; } }
 
 .articleHeader {
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-  float: left; }
+  margin: 1rem auto 2rem; }
+  @media only screen and (min-width:50.063em) {
+    .articleHeader {
+      max-width: 75rem;
+      padding: 0 2rem; } }
+  @media only screen and (min-width:76.063em) {
+    .articleHeader {
+      margin: 1rem 0 2rem;
+      padding: 0; } }
   .articleHeader p {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -1739,8 +1755,18 @@ html, body, .st-container, .st-pusher, .st-content {
     margin-bottom: 0; }
 
 .articleHeader__inner {
-  padding: 0 2rem;
-  margin: 1rem 0 2rem; }
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left; }
+  @media only screen and (min-width:76.063em) {
+    .articleHeader__inner {
+      padding: 0;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 91.66667%;
+      float: left;
+      margin-left: 8.33333% !important; } }
 
 .pagenav {
   padding-left: 0.9375rem;

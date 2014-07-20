@@ -1,9 +1,18 @@
 
 .articleHeader {
-    @include grid-column(
-        $columns:12,
-        $collapse:true
-    );
+   @extend .article__inner;
+
+    margin:1rem auto 2rem;
+
+    @media #{$large-up} {
+        max-width:75rem;
+        padding:0 2rem;
+    }
+
+    @media #{$xlarge-up} {
+        margin:1rem 0 2rem;
+        padding:0;
+    }
 
     p {
         font-family:$lato;
@@ -15,7 +24,14 @@
 }
 
 .articleHeader__inner {
-    @extend .article__inner;
-    padding:0 2rem;
-    margin:1rem 0 2rem;
+    @include grid-column(12);
+
+
+    @media #{$xlarge-up} {
+        padding:0;
+        @include grid-column(
+            $columns: 11,
+            $offset:1
+            );
+    }
 }
