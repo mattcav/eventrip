@@ -1745,8 +1745,7 @@ html, body, .st-container, .st-pusher, .st-content {
       padding: 0 2rem; } }
   @media only screen and (min-width:76.063em) {
     .articleHeader {
-      margin: 1rem 0 2rem;
-      padding: 0; } }
+      margin: 1rem 0 2rem; } }
   .articleHeader p {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
