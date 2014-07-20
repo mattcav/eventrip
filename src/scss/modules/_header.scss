@@ -34,3 +34,18 @@
             );
     }
 }
+
+.link {
+    margin-top:.5rem;
+    @media #{$large-up} {
+        margin-top:1rem;
+    }
+}
+
+.date,
+.where {
+    @media #{$large-up} {
+      display:inline-block;
+      margin-right:1rem;
+    }
+}

@@ -1,0 +1,30 @@
+.itinerari__title {
+    font-style:italic;
+    color:$green;
+}
+
+.itinerari {
+    @include headings(4) {
+        @extend .lato-title;
+        font-family:$lato;
+    }
+}
+
+
+.itinerari__list {
+    list-style:none;
+    margin:0;
+}
+
+.itinerari__item {
+    a {
+        text-transform:uppercase;
+    }
+}
+
+.itinerariLink {
+    font-family:$playfair;
+    font-style:italic;
+    font-size:$h5-font-size;
+    text-transform:initial;
+}

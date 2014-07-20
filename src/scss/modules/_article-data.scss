@@ -1,0 +1,20 @@
+.articleData {
+    width:100%;
+    text-transform:uppercase;
+    border-collapse:collapse;
+    tr {
+        border-bottom:1px solid $grey;
+    }
+
+    .full,
+    .none {
+        font-size:rem-calc(22);
+    }
+    
+    .full {
+        color:$red;
+    }
+    .none {
+        color:$grey;
+    }
+}

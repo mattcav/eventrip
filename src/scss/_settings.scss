@@ -122,7 +122,7 @@ $xxlarge-range: (110.063em, 99999999em);
 $header-font-family: $playfair;
 $header-font-weight: 700;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: $ash;
 $header-line-height: 1.2;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -137,6 +137,13 @@ $h5-font-size: rem-calc(22.222);
 $h6-font-size: 1rem;
 $fontSmall: rem-calc(14.815);
 $fontXsmall: rem-calc(10.667);
+
+$h1-font-reduction: 0;
+$h2-font-reduction: 0;
+$h3-font-reduction: 0;
+$h4-font-reduction: 0;
+$h5-font-reduction: 0;
+$h6-font-reduction: 0;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
@@ -1077,11 +1084,11 @@ $paragraph-aside-line-height: 1.35;
 
 // These control the background color for the table and even rows
 // $table-bg: #fff;
-// $table-even-row-bg: #f9f9f9  ;
+$table-even-row-bg: #fff  ;
 
 // These control the table cell border style
 // $table-border-style: solid;
-// $table-border-size: 1px;
+$table-border-size: 0px;
 // $table-border-color: #ddd;
 
 // These control the table head styles

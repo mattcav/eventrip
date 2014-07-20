@@ -13,3 +13,6 @@ Allora siate fiduciosi: fra poco vedrete il testo vero, che sarà così bello da
 
 #### 4 giorno
 La Feria de Abril è una festa anche per i bambini. Fra le tante attrazioni di strada e gli ambulanti che vendono caramelle e zucchero filato, c'è un grande parco per il divertimento. La Calle del Infierno, nonostante il nome (che probabilmente si riferisce al rumore e la musica assordante del luogo) è un "paradiso" per i più piccoli, fatto di ruote panoramiche e oltre 400 giochi tipici dei luna park, compreso il Circo.
+
+#### 5 giorno
+Questo è solamente un finto testo, impaginato per darvi l’idea di come sarà graficamente il risultato finale, e per rendere più verosimile e gradevole il bozzetto. Quello vero sarà ancora più bello, più attraente, più convincente. Davvero.
