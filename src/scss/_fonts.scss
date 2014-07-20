@@ -4,9 +4,10 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
 // playfair 400, 400ita, 700, 700ita
+$playfair: 'Playfair Display', serif;
+
 .playfair-title {
-    font-style:italic;
-    font-weight:700;
+    font-weight:900;
     font-family: 'Playfair Display', serif;
 }
 

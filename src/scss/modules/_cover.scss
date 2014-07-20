@@ -1,6 +1,6 @@
 .cover {
     position:relative;
-    overflow: hidden;
+    z-index:5;
 
     @media #{$large-up} {
         height:500px;
@@ -10,57 +10,5 @@
 .cover__img {
     @media #{$large-up} {
         @include position(absolute, top 0 left 0 right 0);
-    }
-}
-
-.coverHeader {
-    @include grid-column(
-        $columns:12,
-        $center:true
-    );
-
-     @media #{$large-up} {
-        @include position(absolute, top 0 right 0 bottom 0 left 0);
-        z-index:10;
-        background-image: linear-gradient(9deg, #000000 -15%, rgba(0, 0, 0, 0) 100%);
-    }
-
-    p {
-        font-family:'lato', sans-serif;
-        text-transform:uppercase;
-        font-weight:300;
-        letter-spacing:1px;
-
-        margin-bottom:0;
-        @media #{$large-up} {
-            color:$white;
-        }
-        @media #{$xlarge-up} {
-            font-size:rem-calc(23)
-        }
-    }
-}
-
-.coverHeader__inner {
-    text-align:center;
-    margin:1rem 0 2rem;
-
-    @media #{$large-up} {
-        @include position(absolute, left 2rem bottom 0);
-        text-align:left;
-    }
-    @media #{$xlarge-up} {
-        right:4rem;
-    }
-}
-
-.entry__title {
-    @media #{$large-up} {
-            color:$white;
-            font-size:rem-calc(56);
-        }
-
-    @media #{$xlarge-up} {
-        font-size:rem-calc(72)
     }
 }

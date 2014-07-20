@@ -8,8 +8,14 @@ order: 1
 
 <article class="entry">
     {{> cover}}
-    <div class="row">
-        {{> evento}}
+    <div class="article__inner">
+        <section class="article__main">
+            {{> article-header}}
+            {{> evento}}
+        </section>
+        <aside class="article__sidebar">
+            {{> sidebar}}
+        </aside>
     </div>
 </article>
 
