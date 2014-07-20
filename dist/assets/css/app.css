@@ -1518,6 +1518,35 @@ html, body {
     html, body {
       font-size: 100%; } }
 
+.content {
+  clear: both;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  margin: 2rem auto; }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) { }
+  @media only screen and (min-width:50.063em) {
+    .content p {
+      font-size: 1.125rem; } }
+  .content img {
+    margin-bottom: 1.25rem; }
+
+.content-col, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
+  max-width: 37rem;
+  margin: 0 auto 1.25rem; }
+
+.content-col--large, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
+  max-width: 38rem; }
+
 html, body, .st-container, .st-pusher, .st-content {
   height: 100%; }
 
@@ -1622,35 +1651,6 @@ html, body, .st-container, .st-pusher, .st-content {
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 @media only screen and (min-width:50.063em) { }
 
-.content {
-  clear: both;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 100%;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  margin: 2rem auto; }
-  @media only screen and (min-width:50.063em) { }
-  @media only screen and (min-width:50.063em) { }
-  @media only screen and (min-width:50.063em) { }
-  @media only screen and (min-width:50.063em) { }
-  @media only screen and (min-width:50.063em) { }
-  @media only screen and (min-width:50.063em) { }
-  @media only screen and (min-width:50.063em) {
-    .content p {
-      font-size: 1.125rem; } }
-  .content img {
-    margin-bottom: 1.25rem; }
-
-.content-col, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
-  max-width: 37rem;
-  margin: 0 auto 1.25rem; }
-
-.content-col--large, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
-  max-width: 38rem; }
-
 .cover {
   position: relative;
   overflow: hidden; }
@@ -1661,8 +1661,8 @@ html, body, .st-container, .st-pusher, .st-content {
 @media only screen and (min-width:50.063em) {
   .cover__img {
     position: absolute;
+    top: 0;
     right: 0;
-    bottom: 0;
     left: 0; } }
 
 .coverHeader {
@@ -1681,7 +1681,7 @@ html, body, .st-container, .st-pusher, .st-content {
       bottom: 0;
       left: 0;
       z-index: 10;
-      background-image: linear-gradient(160deg, rgba(255, 255, 255, 0) 60%, #000000 100%); } }
+      background-image: linear-gradient(9deg, #000000 -15%, rgba(0, 0, 0, 0) 100%); } }
   .coverHeader p {
     font-family: 'lato', sans-serif;
     text-transform: uppercase;
@@ -1701,16 +1701,17 @@ html, body, .st-container, .st-pusher, .st-content {
   @media only screen and (min-width:50.063em) {
     .coverHeader__inner {
       position: absolute;
-      right: 2rem;
       bottom: 0;
-      text-align: right; } }
+      left: 2rem;
+      text-align: left; } }
   @media only screen and (min-width:80.063em) {
     .coverHeader__inner {
       right: 4rem; } }
 
 @media only screen and (min-width:50.063em) {
   .entry__title {
-    color: white; } }
+    color: white;
+    font-size: 3.5rem; } }
 @media only screen and (min-width:80.063em) {
   .entry__title {
     font-size: 4.5rem; } }
