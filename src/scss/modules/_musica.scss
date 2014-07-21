@@ -1,25 +1,64 @@
 
 .approfondimenti--musica {
-    background:$red;
     overflow: hidden;
     padding-top:1rem;
     padding-bottom:1rem;
 }
 
 .musica {
+    overflow: hidden;
     @include grid-column(
         $columns:12,
         $collapse:true
     );
 
-    @media #{$large-up} {
+    border-bottom:3px solid $purple;
+    margin-bottom:3rem;
+}
+
+.musica__inner {
+    @media #{$medium-up} {
         @include grid-column(
-            $columns:4,
+            $columns:7,
+            $collapse:true
+        ); 
+    }
+
+    @media #{$xlarge-up} {
+        @include grid-column(
+            $columns:6,
             $collapse:false
-        );
+        ); 
+    }
+}
+
+.musica__content {
+    @media #{$medium-up} {
+        @include grid-column(
+            $columns:5,
+            $collapse:false
+        ); 
+    }
+
+    @media #{$xlarge-up} {
+        @include grid-column(
+            $columns:6,
+            $collapse:false
+        ); 
     }
 }
 
 .musica__title {
+    @extend .lato-title;
     font-size:$h4-font-size;
+}
+
+.musica__text {
+    font-size:$fontSmall;
+    line-height:1.35;
+
+    @media #{$xlarge-up} {
+        font-size:1rem;
+        line-height:1.6;
+    }
 }
