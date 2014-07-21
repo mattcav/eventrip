@@ -1,0 +1,25 @@
+
+.approfondimenti--musica {
+    background:$red;
+    overflow: hidden;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+.musica {
+    @include grid-column(
+        $columns:12,
+        $collapse:true
+    );
+
+    @media #{$large-up} {
+        @include grid-column(
+            $columns:4,
+            $collapse:false
+        );
+    }
+}
+
+.musica__title {
+    font-size:$h4-font-size;
+}
