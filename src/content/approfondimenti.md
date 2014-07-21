@@ -5,18 +5,23 @@ Ecco qualche consiglio per prepararvi alal vostra *Festa di Abril*.
 ## la trilogia di Carlos Saura sul Flamenco: El amor brujo, Boda de sangre, Carmen story
 
 ### Bodas de sangre - Nozze di sangue (Bodas de sangre)
+<iframe width="640" height="480" src="//www.youtube.com/embed/-du7ftTVq9U" frameborder="0" allowfullscreen></iframe>
 Nozze di sangue è una commedia che parla di due coppie ,una sposata e ed una che si deve sposare il giorno dopo. Il marito della coppia sposata è l amante della neo sposa. Durante il matrimonio scoppia un duello fra i due uomini da cui nessuno esce vincitore e la sposa,disperata,promette di non amate più nessuno.
 
 ### Carmen Story (Carmen)
+<iframe width="640" height="360" src="//www.youtube.com/embed/NRogO9aaEyk" frameborder="0" allowfullscreen></iframe>
 Direttore di gran fama trova una nuova ballerina per l'allestimento del suo nuovo balletto su Carmen. Se ne innamora. La ragazza prima lo ricambia, poi si stanca. Quando si vede tradito, la uccide. Film balletto più vicino al celebre racconto di Prosper Merimée che alla partitura di Georges Bizet. Non una trasposizione, ma un film d'autore secco, irresistibile, con 2 ballerini magici.
 
 ### L'amore stregone (El amor brujo)
+<iframe width="640" height="480" src="//www.youtube.com/embed/Sw38eR2QnEM" frameborder="0" allowfullscreen></iframe>
 In un villaggio gitano due uomini legano con un patto il destino dei loro figli che dovranno sposarsi. Una volta cresciuti, nascono grossi problemi. Dopo Nozze di sangue (1981) e Carmen (1983), il sodalizio Saura-Gades chiude la sua ideale trilogia di cinema-balletto con El amor brujo, opera-ballo (1915) di Manuel De Falla, gonfiata abilmente con una buona dose di flamenco e di gitaneria.
 
 ### Matador, Pedro Almodóvar
+<iframe width="640" height="480" src="//www.youtube.com/embed/HsEAa2U_afk" frameborder="0" allowfullscreen></iframe>
 Torero in ritiro e avvocatessa s'incontrano, si amano, si uccidono nell'attimo del piacere. Melodramma sulla corrida tutto sopra le righe dove gli esseri umani sostituiscono i tori, con un sottofondo di ironia provocatoria. Amore e morte in una Spagna divisa tra rock e Opus Dei.
 
 ### Volver, Pedro Almodóvar
+<iframe width="640" height="480" src="//www.youtube.com/embed/ABSvppyQGdE" frameborder="0" allowfullscreen></iframe>
 Raimunda, una giovane madre de la Mancha, trova rifugio dal suo passato a Madrid, dove vive col suo compagno Paco e la figlia adolescente, Paula. Durante un tentativo di abuso da parte del patrigno, Paula lo pugnala a morte. Scoperta la tragedia, Raimunda 'abbraccia' la figlia e la legittima difesa, coprendo l'omicidio e occultando il cadavere. Questo evento disgraziato rievoca fantasmi dolorosi e mai svaniti. Dall'aldilà torna Irene, sua madre, a chiederle perdono e a riparare la colpa.
 
 ## Musica
