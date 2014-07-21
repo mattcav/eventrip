@@ -1,0 +1,9 @@
+.approfondimenti {
+    @include grid-column(
+        $columns:12
+    );
+}
+
+.content__title {
+    @extend .lato-title;
+}
