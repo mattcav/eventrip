@@ -2,8 +2,18 @@
     @include grid-column(
         $columns:12
     );
+
+    @media #{$xlarge-up} {
+        @include grid-column(
+            $columns:10,
+            $center:true
+        );
+    }
 }
 
-.content__title {
-    @extend .lato-title;
+.approfondimenti__title {
+    font-weight:900;
+    font-family:$lato;
+    margin-bottom:1.5rem;
 }
+

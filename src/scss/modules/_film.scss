@@ -1,0 +1,70 @@
+
+
+
+.film {
+    overflow: hidden;
+    @include grid-column(
+        $columns:12,
+        $collapse:true
+    );
+
+    border-bottom:4px double $purple;
+    margin-bottom:3rem;
+    padding-bottom:2rem;
+}
+
+.film__inner {
+    @media #{$large-up} {
+        @include grid-column(
+            $columns:7,
+            $collapse:true
+        ); 
+    }
+
+    @media #{$xlarge-up} {
+        @include grid-column(
+            $columns:6,
+            $collapse:true
+        ); 
+    }
+}
+
+.film__content {
+    margin-top:1rem;
+
+    @media #{$large-up} {
+        margin-top:0;
+        @include grid-column(
+            $columns:5,
+            $collapse:false
+        ); 
+    }
+
+    @media #{$xlarge-up} {
+        @include grid-column(
+            $columns:6,
+            $collapse:false
+        ); 
+    }
+}
+
+.film__title {
+    @extend .lato-title;
+    font-size:$h4-font-size;
+}
+
+.film__text {
+    font-family: $playfair;
+    font-style:italic;
+    font-size:$fontSmall;
+    line-height:1.35;
+
+    @media #{$xlarge-up} {
+        font-size:1rem;
+        line-height:1.6;
+    }
+}
+
+.film__author {
+    @extend .libro__author;
+}

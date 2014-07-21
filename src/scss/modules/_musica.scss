@@ -12,8 +12,8 @@
         $collapse:true
     );
 
-    border-bottom:3px solid $purple;
-    margin-bottom:3rem;
+    border-bottom:4px double $purple;
+    margin-bottom:2rem;
 }
 
 .musica__inner {
@@ -27,7 +27,7 @@
     @media #{$xlarge-up} {
         @include grid-column(
             $columns:6,
-            $collapse:false
+            $collapse:true
         ); 
     }
 }
@@ -54,6 +54,8 @@
 }
 
 .musica__text {
+    font-family: $playfair;
+    font-style:italic;
     font-size:$fontSmall;
     line-height:1.35;
 

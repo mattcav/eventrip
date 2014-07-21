@@ -9,7 +9,7 @@
 .lato {
   font-family: 'Lato', sans-serif; }
 
-.lato-title, .content__title, .itinerari h4, .itinerari h5, .itinerari h6, .pagenav__link, .musica__title {
+.lato-title, .film__title, .itinerari h4, .itinerari h5, .itinerari h6, .libro__title, .musica__title, .pagenav__link {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-transform: uppercase; }
@@ -1763,7 +1763,20 @@ html, body, .st-container, .st-pusher, .st-content {
   padding-right: 0.9375rem;
   width: 100%;
   float: left; }
+  @media only screen and (min-width:76.063em) {
+    .approfondimenti {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 83.33333%;
+      float: left;
+      margin-left: auto;
+      margin-right: auto;
+      float: none; } }
 
+.approfondimenti__title {
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 1.5rem; }
 
 .articleData {
   width: 100%;
@@ -1795,6 +1808,59 @@ html, body, .st-container, .st-pusher, .st-content {
     top: 0;
     right: 0;
     left: 0; } }
+
+.film {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left;
+  border-bottom: 4px double #b882b8;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem; }
+
+@media only screen and (min-width:50.063em) {
+  .film__inner {
+    padding-left: 0;
+    padding-right: 0;
+    width: 58.33333%;
+    float: left; } }
+@media only screen and (min-width:76.063em) {
+  .film__inner {
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+    float: left; } }
+
+.film__content {
+  margin-top: 1rem; }
+  @media only screen and (min-width:50.063em) {
+    .film__content {
+      margin-top: 0;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 41.66667%;
+      float: left; } }
+  @media only screen and (min-width:76.063em) {
+    .film__content {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 50%;
+      float: left; } }
+
+.film__title {
+  font-size: 1.5rem; }
+
+.film__text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 0.92594rem;
+  line-height: 1.35; }
+  @media only screen and (min-width:76.063em) {
+    .film__text {
+      font-size: 1rem;
+      line-height: 1.6; } }
+
 
 .articleHeader {
   margin: 1rem auto 2rem; }
@@ -1862,6 +1928,108 @@ html, body, .st-container, .st-pusher, .st-content {
   font-size: 1.38888rem;
   text-transform: initial; }
 
+.libro {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left;
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media only screen and (min-width:50.063em) {
+    .libro {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem;
+      width: 33.33333%;
+      float: left; } }
+  .libro hr {
+    border: medium none;
+    border-bottom: 4px double #b882b8;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+
+.libro__img {
+  margin-bottom: 1rem;
+  border: 1px solid #3e4646; }
+
+.libro__title {
+  font-size: 1.38888rem; }
+
+.libro__author, .film__author {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.38888rem; }
+
+@media only screen and (min-width:50.063em) {
+  .libri {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.approfondimenti--musica {
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.musica {
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left;
+  border-bottom: 4px double #b882b8;
+  margin-bottom: 2rem; }
+
+@media only screen and (min-width:30.063em) {
+  .musica__inner {
+    padding-left: 0;
+    padding-right: 0;
+    width: 58.33333%;
+    float: left; } }
+@media only screen and (min-width:76.063em) {
+  .musica__inner {
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+    float: left; } }
+
+@media only screen and (min-width:30.063em) {
+  .musica__content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 41.66667%;
+    float: left; } }
+@media only screen and (min-width:76.063em) {
+  .musica__content {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 50%;
+    float: left; } }
+
+.musica__title {
+  font-size: 1.5rem; }
+
+.musica__text {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 0.92594rem;
+  line-height: 1.35; }
+  @media only screen and (min-width:76.063em) {
+    .musica__text {
+      font-size: 1rem;
+      line-height: 1.6; } }
+
 .pagenav {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -1909,57 +2077,6 @@ html, body, .st-container, .st-pusher, .st-content {
   font-size: 1.5rem;
   font-family: 'Playfair Display', serif;
   font-weight: 700; }
-
-.approfondimenti--musica {
-  overflow: hidden;
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
-
-.musica {
-  overflow: hidden;
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
-  float: left;
-  border-bottom: 3px solid #b882b8;
-  margin-bottom: 3rem; }
-
-@media only screen and (min-width:30.063em) {
-  .musica__inner {
-    padding-left: 0;
-    padding-right: 0;
-    width: 58.33333%;
-    float: left; } }
-@media only screen and (min-width:76.063em) {
-  .musica__inner {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left; } }
-
-@media only screen and (min-width:30.063em) {
-  .musica__content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 41.66667%;
-    float: left; } }
-@media only screen and (min-width:76.063em) {
-  .musica__content {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left; } }
-
-.musica__title {
-  font-size: 1.5rem; }
-
-.musica__text {
-  font-size: 0.92594rem;
-  line-height: 1.35; }
-  @media only screen and (min-width:76.063em) {
-    .musica__text {
-      font-size: 1rem;
-      line-height: 1.6; } }
 
 .subheader {
   font-size: 1.5rem;

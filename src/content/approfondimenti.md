@@ -44,7 +44,8 @@ Raimunda, una giovane madre de la Mancha, trova rifugio dal suo passato a Madrid
 
 ## Letture consigliate
 
-###  Carmen, Merimée
+###  Carmen, Prosper Mérimée
+
 Carmen è una novella di Prosper Mérimée, pubblicata nel 1845, da cui è tratta l'omonima opera di Georges Bizet. L'opera di Bizet è basata sulla terza parte del racconto di Mérimée, ma ne tralascia molti elementi, ad esempio la parte che riguarda il marito di Carmen. Alcuni ruoli minori sono approfonditi, soprattutto quello di Lucas, che viene ribattezzato Escamillo e promossa a matador. Molte delle parti femminili dell'opera non trovano riscontro nel racconto.
 
 ###  Robert Wilson, L'uomo di Siviglia 

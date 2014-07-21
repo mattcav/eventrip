@@ -1,0 +1,48 @@
+
+.libro {
+    overflow: hidden;
+    @include grid-column(
+        $columns:12,
+        $collapse:true
+    );
+
+    margin-bottom:3rem;
+
+    @media #{$large-up} {
+        @include grid-column(
+            $columns:4,
+            $collapse:false
+        ); 
+    }
+
+    hr {
+        border:medium none;
+        border-bottom:4px double $purple;
+        flex:1;
+    }
+
+    display:flex;
+    flex-direction:column;
+}
+
+.libro__img {
+    margin-bottom:1rem;
+    border:1px solid $ash;
+}
+
+.libro__title {
+    @extend .lato-title;
+    font-size:$h5-font-size;
+}
+
+.libro__author {
+    font-family:$playfair;
+    font-style:italic;
+    font-size:$h5-font-size;
+}
+
+.libri {
+   @media #{$large-up} {
+    display:flex;
+   } 
+}
