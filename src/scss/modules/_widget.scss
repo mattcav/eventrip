@@ -10,18 +10,7 @@
 
 }
 
-.widget--itinerari {
-    background:$green;
-    padding:1.5rem 1rem 2rem;
-    li:before {
-        content:"♦";
-        margin-right:.5rem;
-    }
-    a {
-        color:$beige;
-        font-weight:300;
-    }
-}
+
 
 .citazione {
     p {
@@ -29,5 +18,14 @@
         font-size:$h4-font-size;
         font-family:$playfair;
         font-weight:700;
+    }
+}
+
+.widget--itinerari {
+    background:$green;
+    padding:1rem;
+    a {
+        color:$white;
+        font-weight:300;
     }
 }

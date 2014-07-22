@@ -17,3 +17,26 @@
     margin-bottom:1.5rem;
 }
 
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 5rem;
+    padding: .5rem .5rem 1rem;
+}
+
+.sharing__list {
+    list-style:none;
+    margin:0;
+}
+
+.sharing__item {
+    border-bottom: 1px solid;
+    padding: .5rem 0;
+    i {
+        margin-right:.5rem;
+    }
+}
+.sharing__link {
+    color:$grey;
+}

@@ -75,26 +75,3 @@
 
 
 
-// widget
-
-.widget {
-    margin:0 0 3rem;
-    padding:0 1rem;
-}
-
-.widget__title {
-
-}
-
-.widget--itinerari {
-    background:$green;
-    padding:1.5rem 1rem 2rem;
-    li:before {
-        content:"♦";
-        margin-right:.5rem;
-    }
-    a {
-        color:$beige;
-        font-weight:300;
-    }
-}

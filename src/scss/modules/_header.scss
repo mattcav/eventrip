@@ -1,3 +1,24 @@
+.masthead {
+    border-bottom: 1px solid $purple;
+    padding: 0 0 .5rem;
+}
+.masthead__logo {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 13rem;
+    padding: .5rem 1rem 0;
+    @media #{$large-up} {
+        margin:0 2rem;
+    }
+
+    @media #{$xlarge-up} {
+        margin:0 8rem;
+    }
+}
+
+
+
 
 .articleHeader {
    @extend .article__inner;

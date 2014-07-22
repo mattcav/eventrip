@@ -6,21 +6,6 @@ body,
     height: 100%;
 }
 
-.st-toggle {
-    @include position(fixed, top 0.5rem right 0.5rem);
-    z-index:9999;
-    padding:0;
-
-    width:rem-calc(44);
-    height:rem-calc(44);
-
-    cursor:pointer;
-    
-    border:medium none;
-    background:$black;
-    color:$white; 
-}
-
 .st-container {
     background:$black;
 }

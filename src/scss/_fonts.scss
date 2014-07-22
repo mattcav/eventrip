@@ -35,11 +35,11 @@ $oswald: 'Oswald', sans-serif;
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?4va1ag');
-	src:url('fonts/icomoon.eot?#iefix4va1ag') format('embedded-opentype'),
-		url('fonts/icomoon.woff?4va1ag') format('woff'),
-		url('fonts/icomoon.ttf?4va1ag') format('truetype'),
-		url('fonts/icomoon.svg?4va1ag#icomoon') format('svg');
+	src:url('../font/icomoon.eot?4va1ag');
+	src:url('../font/icomoon.eot?#iefix4va1ag') format('embedded-opentype'),
+		url('../font/icomoon.woff?4va1ag') format('woff'),
+		url('../font/icomoon.ttf?4va1ag') format('truetype'),
+		url('../font/icomoon.svg?4va1ag#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
