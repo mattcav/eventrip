@@ -1,0 +1,24 @@
+.box {
+    overflow: hidden;
+    margin:3rem 0;
+
+    @include grid-column(
+        $columns:12
+    );
+
+    @media #{$xlarge-up} {
+        @include grid-column(
+            $columns:10,
+            $center:true
+        );
+    }
+
+    padding:1rem;
+}
+
+.box__title {
+    font-weight:700;
+    font-family:$lato;
+    margin-bottom:1.5rem;
+}
+

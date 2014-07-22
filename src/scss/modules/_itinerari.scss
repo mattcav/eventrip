@@ -7,21 +7,27 @@
         $collapse:true
         );
 
-    border-bottom: 1px solid;
-    padding-bottom:.5rem;
-    &:last-child {
-        border-bottom:medium none;
-        padding-bottom:0
+    p {
+        margin-left:1rem;
     }
 }
 
 .w-itinerario__title {
-    @extend .lato-title;
     font-size:$h6-font-size;
+    font-weight:700;
+    font-family:$lato;
+    &:before {
+        content:"♦";
+        margin-right:.2rem;
+    }
 }
 
 .w-itinerario__action {
-    display: inline-block;
-    color:$ash;
-    border-bottom:2px solid $red;
+    font: {
+        style:italic;
+        weight:400;
+    }
+    letter-spacing:1px;
+    text-transform:uppercase;
+    text-decoration:underline;
 }

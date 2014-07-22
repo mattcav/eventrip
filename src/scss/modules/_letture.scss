@@ -21,13 +21,38 @@
         flex:1;
     }
 
-    display:flex;
-    flex-direction:column;
+   @media #{$large-up} {
+        display:flex;
+        flex-direction:column;
+   }
 }
 
 .libro__img {
-    margin-bottom:1rem;
     border:1px solid $ash;
+    margin:0 1rem 1rem;
+
+    @media #{$medium-up} {
+        width:50%;
+        margin:0 0 1rem;
+        float:left;
+    }
+
+    @media #{$large-up} {
+        width:100%;
+    }
+}
+
+.libro__content {
+    @media #{$medium-up} {
+        width:50%;
+        float:right;
+        padding:0 1rem;
+    }
+
+    @media #{$large-up} {
+        width:100%;
+        padding:0;
+    }
 }
 
 .libro__title {

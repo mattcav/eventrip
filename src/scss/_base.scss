@@ -1,4 +1,5 @@
 html, body {
+-webkit-overflow-scrolling:touch;
 font-size: 90%;
     @media #{$medium-up} {
         font-size:100%;
